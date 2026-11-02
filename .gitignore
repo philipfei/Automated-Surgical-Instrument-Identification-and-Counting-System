@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/
+
+# Base / unused weights in the repo root (Ultralytics downloads yolo11m-seg.pt automatically)
+/*.pt
+# Training checkpoint with optimizer state; best.pt is kept
+runs/**/last.pt
+
+# Ultralytics label caches
+*.cache
