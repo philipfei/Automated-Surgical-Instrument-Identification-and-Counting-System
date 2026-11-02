@@ -1,0 +1,9 @@
+train: images/train
+val: images/valid
+test: images/test
+
+names:
+  0: Thumb_Forceps
+  1: Forceps
+  2: Scissors
+  3: Nasal_Speculum
